@@ -10,9 +10,9 @@ while (repeat)
 
     switch (ans)
     {
-        case "Search Restaurants":
-            break;
         case "Join the App":
+            break;
+        case "Search Restaurants":
             break;
         case "MainMenu":
             menu=new MainMenu();

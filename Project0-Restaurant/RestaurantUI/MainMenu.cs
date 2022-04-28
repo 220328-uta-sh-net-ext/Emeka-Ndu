@@ -10,11 +10,14 @@ namespace RestaurantUI
     {
         public void Display()
         {
-            Console.WriteLine("Welcome to Restaurant Reviews!");
-            Console.WriteLine("What would you like to do?");
-            Console.WriteLine("Press <2> to Search Restaurants");
-            Console.WriteLine("Press <1> to Join the App");
-            Console.WriteLine("Press <0> to Exit");
+            Console.WriteLine("Welcome To Restaurant Reviews!");
+            Console.WriteLine("Please Review And Select From The Options Below");
+            Console.WriteLine("Press <1> To Join The App");
+            Console.WriteLine("Press <2> To Add A Restaurant");
+            Console.WriteLine("Press <3> To Review A Restaurant");
+            Console.WriteLine("Press <4> To Search All Restaurants");
+            Console.WriteLine("Press <5> If You Are An *Admin*");
+            Console.WriteLine("Press <0> To Exit");
         }
 
         public string UserChoice()
@@ -27,7 +30,11 @@ namespace RestaurantUI
                     return "Exit";
                 case "1":
                     return "Join the App";
-                case"2":
+                case "2":
+                    return "Add Restaurant";
+                case "3":
+                    return "Review Restaurant";
+                case "4":
                     return "Search Restaurants";
                 default:
                     Console.WriteLine("Please select a valid option");
