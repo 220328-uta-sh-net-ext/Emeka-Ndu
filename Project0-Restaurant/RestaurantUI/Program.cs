@@ -10,9 +10,20 @@ while (repeat)
 
     switch (ans)
     {
-        case "Join the App":
+        case "Join The App":
+            Console.WriteLine("Joing working...");
+            break;
+        case "Add Restaurant":
+            Console.WriteLine("Add working...");
+            break;
+        case "Review Restaurant":
+            Console.WriteLine("Review working...");
             break;
         case "Search Restaurants":
+            Console.WriteLine("Search working...");
+            break;
+        case "Admin Login":
+            Console.WriteLine("Admin Login working...");
             break;
         case "MainMenu":
             menu=new MainMenu();
