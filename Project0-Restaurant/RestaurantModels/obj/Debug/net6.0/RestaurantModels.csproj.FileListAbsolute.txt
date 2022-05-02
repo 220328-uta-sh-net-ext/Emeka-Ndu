@@ -1,0 +1,5 @@
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\Project0-Restaurant\RestaurantModels\obj\Debug\net6.0\RestaurantModels.csproj.AssemblyReference.cache
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\Project0-Restaurant\RestaurantModels\obj\Debug\net6.0\RestaurantModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\Project0-Restaurant\RestaurantModels\obj\Debug\net6.0\RestaurantModels.AssemblyInfoInputs.cache
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\Project0-Restaurant\RestaurantModels\obj\Debug\net6.0\RestaurantModels.AssemblyInfo.cs
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\Project0-Restaurant\RestaurantModels\obj\Debug\net6.0\RestaurantModels.csproj.CoreCompileInputs.cache

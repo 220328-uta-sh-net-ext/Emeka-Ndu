@@ -1,11 +1,65 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "RestaurantBL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/RestaurantBL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RestaurantBL.dll": {}
+        }
+      },
+      "RestaurantDL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "RestaurantModels": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RestaurantDL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RestaurantDL.dll": {}
+        }
+      },
+      "RestaurantModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/RestaurantModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RestaurantModels.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "RestaurantBL/1.0.0": {
+      "type": "project",
+      "path": "../RestaurantBL/RestaurantBL.csproj",
+      "msbuildProject": "../RestaurantBL/RestaurantBL.csproj"
+    },
+    "RestaurantDL/1.0.0": {
+      "type": "project",
+      "path": "../RestaurantDL/RestaurantDL.csproj",
+      "msbuildProject": "../RestaurantDL/RestaurantDL.csproj"
+    },
+    "RestaurantModels/1.0.0": {
+      "type": "project",
+      "path": "../RestaurantModels/RestaurantModels.csproj",
+      "msbuildProject": "../RestaurantModels/RestaurantModels.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "RestaurantBL >= 1.0.0",
+      "RestaurantDL >= 1.0.0",
+      "RestaurantModels >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\nduag\\.nuget\\packages\\": {},
@@ -14,11 +68,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nduag\\source\\repos\\220328-uta-sh-net-ext\\Emeka-Ndu\\Project0-Restaurant\\RestaurantUI\\RestaurantUI.csproj",
+      "projectUniqueName": "C:\\Users\\nduag\\OneDrive\\Repos\\Emeka-Ndu\\Project0-Restaurant\\RestaurantUI\\RestaurantUI.csproj",
       "projectName": "RestaurantUI",
-      "projectPath": "C:\\Users\\nduag\\source\\repos\\220328-uta-sh-net-ext\\Emeka-Ndu\\Project0-Restaurant\\RestaurantUI\\RestaurantUI.csproj",
+      "projectPath": "C:\\Users\\nduag\\OneDrive\\Repos\\Emeka-Ndu\\Project0-Restaurant\\RestaurantUI\\RestaurantUI.csproj",
       "packagesPath": "C:\\Users\\nduag\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nduag\\source\\repos\\220328-uta-sh-net-ext\\Emeka-Ndu\\Project0-Restaurant\\RestaurantUI\\obj\\",
+      "outputPath": "C:\\Users\\nduag\\OneDrive\\Repos\\Emeka-Ndu\\Project0-Restaurant\\RestaurantUI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -38,7 +92,17 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\nduag\\OneDrive\\Repos\\Emeka-Ndu\\Project0-Restaurant\\RestaurantBL\\RestaurantBL.csproj": {
+              "projectPath": "C:\\Users\\nduag\\OneDrive\\Repos\\Emeka-Ndu\\Project0-Restaurant\\RestaurantBL\\RestaurantBL.csproj"
+            },
+            "C:\\Users\\nduag\\OneDrive\\Repos\\Emeka-Ndu\\Project0-Restaurant\\RestaurantDL\\RestaurantDL.csproj": {
+              "projectPath": "C:\\Users\\nduag\\OneDrive\\Repos\\Emeka-Ndu\\Project0-Restaurant\\RestaurantDL\\RestaurantDL.csproj"
+            },
+            "C:\\Users\\nduag\\OneDrive\\Repos\\Emeka-Ndu\\Project0-Restaurant\\RestaurantModels\\RestaurantModels.csproj": {
+              "projectPath": "C:\\Users\\nduag\\OneDrive\\Repos\\Emeka-Ndu\\Project0-Restaurant\\RestaurantModels\\RestaurantModels.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

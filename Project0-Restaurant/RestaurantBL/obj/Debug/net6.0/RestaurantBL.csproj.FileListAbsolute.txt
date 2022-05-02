@@ -1,0 +1,12 @@
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\Project0-Restaurant\RestaurantBL\bin\Debug\net6.0\RestaurantBL.deps.json
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\Project0-Restaurant\RestaurantBL\bin\Debug\net6.0\RestaurantBL.dll
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\Project0-Restaurant\RestaurantBL\bin\Debug\net6.0\RestaurantBL.pdb
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\Project0-Restaurant\RestaurantBL\obj\Debug\net6.0\RestaurantBL.csproj.AssemblyReference.cache
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\Project0-Restaurant\RestaurantBL\obj\Debug\net6.0\RestaurantBL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\Project0-Restaurant\RestaurantBL\obj\Debug\net6.0\RestaurantBL.AssemblyInfoInputs.cache
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\Project0-Restaurant\RestaurantBL\obj\Debug\net6.0\RestaurantBL.AssemblyInfo.cs
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\Project0-Restaurant\RestaurantBL\obj\Debug\net6.0\RestaurantBL.csproj.CoreCompileInputs.cache
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\Project0-Restaurant\RestaurantBL\obj\Debug\net6.0\RestaurantBL.dll
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\Project0-Restaurant\RestaurantBL\obj\Debug\net6.0\refint\RestaurantBL.dll
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\Project0-Restaurant\RestaurantBL\obj\Debug\net6.0\RestaurantBL.pdb
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\Project0-Restaurant\RestaurantBL\obj\Debug\net6.0\ref\RestaurantBL.dll

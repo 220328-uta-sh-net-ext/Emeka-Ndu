@@ -11,9 +11,11 @@ while (repeat)
     switch (ans)
     {
         case "Join The App":
+            //call join app method
             Console.WriteLine("Joing working...");
             break;
         case "Add Restaurant":
+            //call add restaurant method
             Console.WriteLine("Add working...");
             break;
         case "Review Restaurant":
