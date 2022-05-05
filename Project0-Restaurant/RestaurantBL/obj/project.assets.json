@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "RestaurantModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/RestaurantModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RestaurantModels.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "RestaurantModels/1.0.0": {
+      "type": "project",
+      "path": "../RestaurantModels/RestaurantModels.csproj",
+      "msbuildProject": "../RestaurantModels/RestaurantModels.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "RestaurantModels >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\nduag\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\nduag\\OneDrive\\Repos\\Emeka-Ndu\\Project0-Restaurant\\RestaurantModels\\RestaurantModels.csproj": {
+              "projectPath": "C:\\Users\\nduag\\OneDrive\\Repos\\Emeka-Ndu\\Project0-Restaurant\\RestaurantModels\\RestaurantModels.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
