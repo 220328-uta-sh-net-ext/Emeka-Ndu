@@ -90,6 +90,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "C:\\Users\\nduag\\OneDrive\\Repos\\Emeka-Ndu\\Project0-Restaurant\\RestaurantBL\\RestaurantBL.csproj": {
+                "projectPath": "C:\\Users\\nduag\\OneDrive\\Repos\\Emeka-Ndu\\Project0-Restaurant\\RestaurantBL\\RestaurantBL.csproj"
+              },
               "C:\\Users\\nduag\\OneDrive\\Repos\\Emeka-Ndu\\Project0-Restaurant\\RestaurantModels\\RestaurantModels.csproj": {
                 "projectPath": "C:\\Users\\nduag\\OneDrive\\Repos\\Emeka-Ndu\\Project0-Restaurant\\RestaurantModels\\RestaurantModels.csproj"
               }

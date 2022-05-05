@@ -15,7 +15,7 @@ namespace RestaurantDL
         /// This method returns all the restaurants from the database
         /// </summary>
         /// <returns>Returns a collection of restaurants as Generic List</returns>
-        List<Restuarants> GetAllRestaurants();
+        
 
     }
 }

@@ -2,6 +2,16 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "RestaurantBL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/RestaurantBL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RestaurantBL.dll": {}
+        }
+      },
       "RestaurantModels/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -15,6 +25,11 @@
     }
   },
   "libraries": {
+    "RestaurantBL/1.0.0": {
+      "type": "project",
+      "path": "../RestaurantBL/RestaurantBL.csproj",
+      "msbuildProject": "../RestaurantBL/RestaurantBL.csproj"
+    },
     "RestaurantModels/1.0.0": {
       "type": "project",
       "path": "../RestaurantModels/RestaurantModels.csproj",
@@ -23,6 +38,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "RestaurantBL >= 1.0.0",
       "RestaurantModels >= 1.0.0"
     ]
   },
@@ -58,6 +74,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\Users\\nduag\\OneDrive\\Repos\\Emeka-Ndu\\Project0-Restaurant\\RestaurantBL\\RestaurantBL.csproj": {
+              "projectPath": "C:\\Users\\nduag\\OneDrive\\Repos\\Emeka-Ndu\\Project0-Restaurant\\RestaurantBL\\RestaurantBL.csproj"
+            },
             "C:\\Users\\nduag\\OneDrive\\Repos\\Emeka-Ndu\\Project0-Restaurant\\RestaurantModels\\RestaurantModels.csproj": {
               "projectPath": "C:\\Users\\nduag\\OneDrive\\Repos\\Emeka-Ndu\\Project0-Restaurant\\RestaurantModels\\RestaurantModels.csproj"
             }

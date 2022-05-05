@@ -28,3 +28,10 @@ C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\Project0-Restaurant\RestaurantUI\obj\Deb
 C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\Project0-Restaurant\RestaurantUI\obj\Debug\net6.0\RestaurantUI.pdb
 C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\Project0-Restaurant\RestaurantUI\obj\Debug\net6.0\RestaurantUI.genruntimeconfig.cache
 C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\Project0-Restaurant\RestaurantUI\obj\Debug\net6.0\ref\RestaurantUI.dll
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\Project0-Restaurant\RestaurantUI\bin\Debug\net6.0\RestaurantBL.dll
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\Project0-Restaurant\RestaurantUI\bin\Debug\net6.0\RestaurantDL.dll
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\Project0-Restaurant\RestaurantUI\bin\Debug\net6.0\RestaurantModels.dll
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\Project0-Restaurant\RestaurantUI\bin\Debug\net6.0\RestaurantBL.pdb
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\Project0-Restaurant\RestaurantUI\bin\Debug\net6.0\RestaurantDL.pdb
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\Project0-Restaurant\RestaurantUI\bin\Debug\net6.0\RestaurantModels.pdb
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\Project0-Restaurant\RestaurantUI\obj\Debug\net6.0\RestaurantUI.csproj.CopyComplete
