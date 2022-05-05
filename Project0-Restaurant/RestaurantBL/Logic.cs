@@ -1,6 +1,6 @@
 ﻿namespace RestaurantBL
 {
-    public class Class1
+    public class Logic
     {
 
     }

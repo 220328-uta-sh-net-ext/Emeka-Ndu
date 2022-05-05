@@ -12,20 +12,20 @@ while (repeat)
     {
         case "Join The App":
             //call join app method
-            Console.WriteLine("Joing working...");
+            Console.WriteLine("Joing the app method under implementation...");
             break;
         case "Add Restaurant":
             //call add restaurant method
-            Console.WriteLine("Add working...");
+            Console.WriteLine("Add new Restaurant method under implementation...");
             break;
         case "Review Restaurant":
-            Console.WriteLine("Review working...");
+            Console.WriteLine("Review restaurant method under implementation...");
             break;
         case "Search Restaurants":
-            Console.WriteLine("Search working...");
+            Console.WriteLine("Search restaurants database under implementation...");
             break;
         case "Admin Login":
-            Console.WriteLine("Admin Login working...");
+            Console.WriteLine("Admin Login method is under implementation...");
             break;
         case "MainMenu":
             menu=new MainMenu();
