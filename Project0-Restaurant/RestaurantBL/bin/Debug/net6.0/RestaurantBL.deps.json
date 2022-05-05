@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "RestaurantBL/1.0.0": {
+        "dependencies": {
+          "RestaurantModels": "1.0.0"
+        },
         "runtime": {
           "RestaurantBL.dll": {}
+        }
+      },
+      "RestaurantModels/1.0.0": {
+        "runtime": {
+          "RestaurantModels.dll": {}
         }
       }
     }
   },
   "libraries": {
     "RestaurantBL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RestaurantModels/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

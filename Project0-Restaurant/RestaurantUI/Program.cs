@@ -3,6 +3,11 @@
 bool repeat = true;
 IMenu menu = new MainMenu();
 
+string connectionStringFilePath = "../../../../RestaurantDL/connection-string.txt";
+string connectionString = File.ReadAllText(connectionStringFilePath);
+
+
+
 while (repeat)
 {
     menu.Display();

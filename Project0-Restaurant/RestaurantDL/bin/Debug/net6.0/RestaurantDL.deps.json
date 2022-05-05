@@ -16,6 +16,9 @@
         }
       },
       "RestaurantBL/1.0.0": {
+        "dependencies": {
+          "RestaurantModels": "1.0.0"
+        },
         "runtime": {
           "RestaurantBL.dll": {}
         }
