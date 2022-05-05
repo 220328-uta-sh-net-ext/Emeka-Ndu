@@ -1,9 +1,23 @@
 ﻿namespace RestaurantModels
 {
-    public class Users
+  public class User
     {
-        public string Getusername { get; set; }
-        public string GetPassword { get; set; }    
-        public string Getuserlocation { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string Email { get; set; }
+        public string Password { get; set; }    
+        public string Location { get; set; }
+        
+        public User()
+        {
+            FirstName = string.Empty;
+            LastName = string.Empty;
+            Email = string.Empty;   
+            Password = string.Empty;
+            Location = string.Empty;
+        }
     }
+   
+        
+
 }

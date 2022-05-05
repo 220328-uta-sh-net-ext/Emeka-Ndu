@@ -7,7 +7,11 @@ using RestaurantModels;
 
 namespace RestaurantBL
 {
-    internal class IRestaurantLogic
+    public interface IRestaurantLogic
     {
+
     }
+}
+interface IRestaurantsearch 
+{
 }
