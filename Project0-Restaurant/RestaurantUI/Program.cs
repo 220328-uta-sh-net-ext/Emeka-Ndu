@@ -1,4 +1,8 @@
 ﻿using RestaurantUI;
+using RestaurantBL;
+using RestaurantDL;
+using RestaurantModels;
+using Serilog;
 
 bool repeat = true;
 IMenu menu = new MainMenu();
@@ -6,14 +10,25 @@ IMenu menu = new MainMenu();
 string connectionStringFilePath = "../../../../RestaurantDL/connection-string.txt";
 string connectionString = File.ReadAllText(connectionStringFilePath);
 
+//string connectionStringFilePath = "../../../../Confidential-string.txt";
+//string connectionString = File.ReadAllText(connectionStringFilePath);
+
+//string connectionStrringFilePath = "C:/Users/nduag/OneDrive/Repos/Emeka-Ndu/Project0-Restaurant/RestaurantDL/connection-string.txt";
+//string connectionStrring = File.ReadAllText(connectionStrringFilePath);
+
+Log.Logger = new LoggerConfiguration()
+    .MinimumLevel.Debug()
+    .WriteTo.File("C:/Users/nduag/OneDrive/Repos/Emeka-Ndu/Project0-Restaurant/RestaurantUI/Log.txt")
+    .CreateLogger();
+
 
 
 while (repeat)
 {
     menu.Display();
-    string ans = menu.UserChoice();
+    string input = menu.UserChoice();
 
-    switch (ans)
+    switch (input)
     {
         case "Join The App":
             //call join app method
