@@ -31,20 +31,24 @@ while (repeat)
     switch (input)
     {
         case "Join The App":
-            //call join app method
+            //call user model
+
             Console.WriteLine("Joing the app method under implementation...");
             break;
         case "Add Restaurant":
-            //call add restaurant method
+            //call restaurant model
             Console.WriteLine("Add new Restaurant method under implementation...");
             break;
         case "Review Restaurant":
+            //call review model
             Console.WriteLine("Review restaurant method under implementation...");
             break;
         case "Search Restaurants":
-            Console.WriteLine("Search restaurants database under implementation...");
+           // call restaurant model
+           Console.WriteLine("Search restaurants database under implementation...");
             break;
         case "Admin Login":
+            // call admin model
             Console.WriteLine("Admin Login method is under implementation...");
             break;
         case "MainMenu":

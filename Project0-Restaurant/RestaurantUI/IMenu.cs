@@ -11,4 +11,12 @@ namespace RestaurantUI
         void Display();
         string UserChoice();
     }
+
+    interface IMoreMenu
+    {
+        void Exit();
+
+        void Continue();
+    }
+
 }
