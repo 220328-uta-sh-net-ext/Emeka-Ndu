@@ -32,8 +32,6 @@ while (repeat)
     {
         case "Join The App":
             //call user model
-
-            Console.WriteLine("Joing the app method under implementation...");
             break;
         case "Add Restaurant":
             //call restaurant model

@@ -11,7 +11,7 @@ namespace RestaurantUI
 {
     internal class AddRestaurants : IMenu
     {
-        //private static Restuarant newRestaurant = new restaurant();
+        private static Restaurant newRestaurant = new Restaurant();
 
         //private IRepository _repository = new Repository(); //UpCasting
         //private IRestaurantLogic _repository = new RestaurantLogic();
