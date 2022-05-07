@@ -1,0 +1,17 @@
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\bin\Debug\net6.0-windows\P0 Restaurant Review.exe
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\bin\Debug\net6.0-windows\P0 Restaurant Review.deps.json
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\bin\Debug\net6.0-windows\P0 Restaurant Review.runtimeconfig.json
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\bin\Debug\net6.0-windows\P0 Restaurant Review.dll
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\bin\Debug\net6.0-windows\P0 Restaurant Review.pdb
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\obj\Debug\net6.0-windows\P0 Restaurant Review.csproj.AssemblyReference.cache
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\obj\Debug\net6.0-windows\P0_Restaurant_Review.Welcome.resources
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\obj\Debug\net6.0-windows\P0 Restaurant Review.csproj.GenerateResource.cache
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\obj\Debug\net6.0-windows\P0 Restaurant Review.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\obj\Debug\net6.0-windows\P0 Restaurant Review.AssemblyInfoInputs.cache
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\obj\Debug\net6.0-windows\P0 Restaurant Review.AssemblyInfo.cs
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\obj\Debug\net6.0-windows\P0 Restaurant Review.csproj.CoreCompileInputs.cache
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\obj\Debug\net6.0-windows\P0 Restaurant Review.dll
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\obj\Debug\net6.0-windows\refint\P0 Restaurant Review.dll
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\obj\Debug\net6.0-windows\P0 Restaurant Review.pdb
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\obj\Debug\net6.0-windows\P0 Restaurant Review.genruntimeconfig.cache
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\obj\Debug\net6.0-windows\ref\P0 Restaurant Review.dll
