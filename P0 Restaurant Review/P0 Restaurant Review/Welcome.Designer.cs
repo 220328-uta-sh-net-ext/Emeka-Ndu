@@ -30,15 +30,15 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.Userlogin = new System.Windows.Forms.TextBox();
+            this.tbuusername = new System.Windows.Forms.TextBox();
             this.Username = new System.Windows.Forms.Label();
             this.Password = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tbupassword = new System.Windows.Forms.TextBox();
             this.User = new System.Windows.Forms.Button();
             this.Adminusername = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.tbausername = new System.Windows.Forms.TextBox();
             this.Adminpassword = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.tbapassword = new System.Windows.Forms.TextBox();
             this.Admin = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -52,12 +52,12 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Hi There!. Get started Below";
             // 
-            // Userlogin
+            // tbuusername
             // 
-            this.Userlogin.Location = new System.Drawing.Point(55, 127);
-            this.Userlogin.Name = "Userlogin";
-            this.Userlogin.Size = new System.Drawing.Size(206, 23);
-            this.Userlogin.TabIndex = 1;
+            this.tbuusername.Location = new System.Drawing.Point(55, 127);
+            this.tbuusername.Name = "tbuusername";
+            this.tbuusername.Size = new System.Drawing.Size(206, 23);
+            this.tbuusername.TabIndex = 1;
             // 
             // Username
             // 
@@ -79,12 +79,12 @@
             this.Password.TabIndex = 3;
             this.Password.Text = "Your Password";
             // 
-            // textBox1
+            // tbupassword
             // 
-            this.textBox1.Location = new System.Drawing.Point(55, 235);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(206, 23);
-            this.textBox1.TabIndex = 4;
+            this.tbupassword.Location = new System.Drawing.Point(55, 235);
+            this.tbupassword.Name = "tbupassword";
+            this.tbupassword.Size = new System.Drawing.Size(206, 23);
+            this.tbupassword.TabIndex = 4;
             // 
             // User
             // 
@@ -107,12 +107,12 @@
             this.Adminusername.TabIndex = 6;
             this.Adminusername.Text = "Admin Username";
             // 
-            // textBox2
+            // tbausername
             // 
-            this.textBox2.Location = new System.Drawing.Point(535, 127);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(206, 23);
-            this.textBox2.TabIndex = 7;
+            this.tbausername.Location = new System.Drawing.Point(535, 127);
+            this.tbausername.Name = "tbausername";
+            this.tbausername.Size = new System.Drawing.Size(206, 23);
+            this.tbausername.TabIndex = 7;
             // 
             // Adminpassword
             // 
@@ -124,12 +124,12 @@
             this.Adminpassword.TabIndex = 8;
             this.Adminpassword.Text = "Admin Password";
             // 
-            // textBox3
+            // tbapassword
             // 
-            this.textBox3.Location = new System.Drawing.Point(535, 235);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(206, 23);
-            this.textBox3.TabIndex = 9;
+            this.tbapassword.Location = new System.Drawing.Point(535, 235);
+            this.tbapassword.Name = "tbapassword";
+            this.tbapassword.Size = new System.Drawing.Size(206, 23);
+            this.tbapassword.TabIndex = 9;
             // 
             // Admin
             // 
@@ -147,15 +147,15 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.Admin);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.tbapassword);
             this.Controls.Add(this.Adminpassword);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.tbausername);
             this.Controls.Add(this.Adminusername);
             this.Controls.Add(this.User);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.tbupassword);
             this.Controls.Add(this.Password);
             this.Controls.Add(this.Username);
-            this.Controls.Add(this.Userlogin);
+            this.Controls.Add(this.tbuusername);
             this.Controls.Add(this.label1);
             this.Name = "Welcome";
             this.Text = "Form1";
@@ -167,15 +167,15 @@
         #endregion
 
         private Label label1;
-        private TextBox Userlogin;
+        private TextBox tbuusername;
         private Label Username;
         private Label Password;
-        private TextBox textBox1;
+        private TextBox tbupassword;
         private Button User;
         private Label Adminusername;
-        private TextBox textBox2;
+        private TextBox tbausername;
         private Label Adminpassword;
-        private TextBox textBox3;
+        private TextBox tbapassword;
         private Button Admin;
     }
 }

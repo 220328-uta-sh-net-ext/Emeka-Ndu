@@ -13,5 +13,8 @@ namespace P0_Restaurant_Review
             ApplicationConfiguration.Initialize();
             Application.Run(new Welcome());
         }
+
+        
+
     }
 }

@@ -15,3 +15,43 @@ C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Revie
 C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\obj\Debug\net6.0-windows\P0 Restaurant Review.pdb
 C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\obj\Debug\net6.0-windows\P0 Restaurant Review.genruntimeconfig.cache
 C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\obj\Debug\net6.0-windows\ref\P0 Restaurant Review.dll
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\bin\Debug\net6.0-windows\Humanizer.dll
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\bin\Debug\net6.0-windows\MySqlConnector.dll
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\bin\Debug\net6.0-windows\Serilog.dll
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\bin\Debug\net6.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\obj\Debug\net6.0-windows\P0 Restaurant Review.csproj.CopyComplete
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\bin\Debug\net6.0-windows\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\bin\Debug\net6.0-windows\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\bin\Debug\net6.0-windows\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\bin\Debug\net6.0-windows\Microsoft.Extensions.Identity.Core.dll
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\bin\Debug\net6.0-windows\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\P0 Restaurant Review\P0 Restaurant Review\bin\Debug\net6.0-windows\Serilog.Sinks.Console.dll
