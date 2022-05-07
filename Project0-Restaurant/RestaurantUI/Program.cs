@@ -22,7 +22,7 @@ Log.Logger = new LoggerConfiguration()
     .CreateLogger();
 
 
-
+/*
 while (repeat)
 {
     menu.Display();
@@ -31,6 +31,7 @@ while (repeat)
     switch (input)
     {
         case "Join The App":
+            Console.WriteLine("Join method under implementation...");
             //call user model
             break;
         case "Add Restaurant":
@@ -42,10 +43,11 @@ while (repeat)
             Console.WriteLine("Review restaurant method under implementation...");
             break;
         case "Search Restaurants":
-           // call restaurant model
-           Console.WriteLine("Search restaurants database under implementation...");
+            // call restaurant model
+            menu = new SearchRestaurantMenu();
             break;
-        case "Admin Login":
+            Console.WriteLine("Search restaurants database under implementation...");
+       case "Admin Login":
             // call admin model
             Console.WriteLine("Admin Login method is under implementation...");
             break;
@@ -62,4 +64,8 @@ while (repeat)
             break;
     }
 }
+*/
 
+Console.WriteLine("Please enter your username");
+string userinput = Console.ReadLine();
+string _ = "?";

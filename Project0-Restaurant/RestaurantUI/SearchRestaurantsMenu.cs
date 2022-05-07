@@ -4,12 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using RestaurantBL;
+using RestaurantModels;
 
 
 namespace RestaurantUI;
 class SearchRestaurantMenu : IMenu
 {
     readonly IRestaurantLogic logic;
+    private readonly string userInput;
 
     public SearchRestaurantMenu(IRestaurantLogic logic)
     {
@@ -25,16 +27,11 @@ class SearchRestaurantMenu : IMenu
 
     public string UserChoice()
     {
-        // Console.ReadLine returns null if redirecting from a file and the file ends
-        if (Console.ReadLine() is not string userInput)
-            throw new InvalidDataException("end of input");
-
         switch (userInput)
         {
             case "0":
                 return "MainMenu";
             case "1":
-                // Logic to display results
                 Console.Write("Please enter the name ");
                 if (Console.ReadLine() is not string name)
                     throw new InvalidDataException("end of input");
