@@ -10,7 +10,7 @@ namespace P0_Restaurant_Review
         }
 
         private const string connectionStringFilePath = "C:/Users/nduag/OneDrive/Repos/Emeka-Ndu/P0 Restaurant Review/P0 Restaurant Review/Users.mdf";
-        private readonly string connectionString;
+        private string connectionString;
 
 
 
