@@ -7,6 +7,7 @@
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
+        
         /// <summary>
         ///  Clean up any resources being used.
         /// </summary>
@@ -94,6 +95,7 @@
             this.User.TabIndex = 5;
             this.User.Text = "Submit";
             this.User.UseVisualStyleBackColor = true;
+            this.User.Click += new System.EventHandler(this.User_Click);
             // 
             // Adminusername
             // 
