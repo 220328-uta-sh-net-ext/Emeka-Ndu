@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="masterModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'master.dbo.Users' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="AccountCreated" />
+    </Key>
+    <Property Name="cusername" Type="nvarchar" MaxLength="100" />
+    <Property Name="cpassword" Type="nvarchar" MaxLength="100" />
+    <Property Name="ausername" Type="nvarchar" MaxLength="100" />
+    <Property Name="apassword" Type="nvarchar" MaxLength="100" />
+    <Property Name="AccountCreated" Type="datetime2" Precision="7" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="masterModelStoreContainer">
+    <EntitySet Name="Users" EntityType="Self.Users" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Users].[cusername] AS [cusername], 
+    [Users].[cpassword] AS [cpassword], 
+    [Users].[ausername] AS [ausername], 
+    [Users].[apassword] AS [apassword], 
+    [Users].[AccountCreated] AS [AccountCreated]
+    FROM [dbo].[Users] AS [Users]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

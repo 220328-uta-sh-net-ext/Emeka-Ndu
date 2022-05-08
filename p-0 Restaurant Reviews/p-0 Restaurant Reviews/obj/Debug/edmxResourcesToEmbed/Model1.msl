@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="masterModelStoreContainer" CdmEntityContainer="masterEntities">
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="masterModel.User">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="cusername" ColumnName="cusername" />
+          <ScalarProperty Name="cpassword" ColumnName="cpassword" />
+          <ScalarProperty Name="ausername" ColumnName="ausername" />
+          <ScalarProperty Name="apassword" ColumnName="apassword" />
+          <ScalarProperty Name="AccountCreated" ColumnName="AccountCreated" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
