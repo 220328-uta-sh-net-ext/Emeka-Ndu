@@ -31,5 +31,12 @@ namespace p_0_Restaurant_Reviews
             this.usersTableAdapter.Fill(this.masterDataSet.Users);
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show($"Hi there! \n Thanks for providing your information");
+        }
+
+        
     }
 }

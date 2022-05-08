@@ -55,7 +55,7 @@
             this.cpasswordTextBox = new System.Windows.Forms.TextBox();
             this.ausernameTextBox = new System.Windows.Forms.TextBox();
             this.apasswordTextBox = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.welcomesubmit = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             cusernameLabel = new System.Windows.Forms.Label();
             cpasswordLabel = new System.Windows.Forms.Label();
@@ -144,6 +144,7 @@
             // 
             this.bindingNavigatorPositionItem.AccessibleName = "Position";
             this.bindingNavigatorPositionItem.AutoSize = false;
+            this.bindingNavigatorPositionItem.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.bindingNavigatorPositionItem.Name = "bindingNavigatorPositionItem";
             this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(50, 23);
             this.bindingNavigatorPositionItem.Text = "0";
@@ -152,14 +153,14 @@
             // bindingNavigatorCountItem
             // 
             this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
-            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(35, 15);
+            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(35, 22);
             this.bindingNavigatorCountItem.Text = "of {0}";
             this.bindingNavigatorCountItem.ToolTipText = "Total number of items";
             // 
             // bindingNavigatorSeparator1
             // 
             this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator";
-            this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 6);
+            this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 25);
             // 
             // bindingNavigatorMoveNextItem
             // 
@@ -167,7 +168,7 @@
             this.bindingNavigatorMoveNextItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveNextItem.Image")));
             this.bindingNavigatorMoveNextItem.Name = "bindingNavigatorMoveNextItem";
             this.bindingNavigatorMoveNextItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(23, 20);
+            this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(23, 22);
             this.bindingNavigatorMoveNextItem.Text = "Move next";
             // 
             // bindingNavigatorMoveLastItem
@@ -176,13 +177,13 @@
             this.bindingNavigatorMoveLastItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveLastItem.Image")));
             this.bindingNavigatorMoveLastItem.Name = "bindingNavigatorMoveLastItem";
             this.bindingNavigatorMoveLastItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(23, 20);
+            this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(23, 22);
             this.bindingNavigatorMoveLastItem.Text = "Move last";
             // 
             // bindingNavigatorSeparator2
             // 
             this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator";
-            this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 6);
+            this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 25);
             // 
             // bindingNavigatorAddNewItem
             // 
@@ -199,15 +200,16 @@
             this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
             this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
             this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(23, 20);
+            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(23, 22);
             this.bindingNavigatorDeleteItem.Text = "Delete";
             // 
             // usersBindingNavigatorSaveItem
             // 
             this.usersBindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.usersBindingNavigatorSaveItem.Enabled = false;
             this.usersBindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("usersBindingNavigatorSaveItem.Image")));
             this.usersBindingNavigatorSaveItem.Name = "usersBindingNavigatorSaveItem";
-            this.usersBindingNavigatorSaveItem.Size = new System.Drawing.Size(23, 23);
+            this.usersBindingNavigatorSaveItem.Size = new System.Drawing.Size(23, 22);
             this.usersBindingNavigatorSaveItem.Text = "Save Data";
             this.usersBindingNavigatorSaveItem.Click += new System.EventHandler(this.usersBindingNavigatorSaveItem_Click);
             // 
@@ -283,15 +285,16 @@
             this.apasswordTextBox.Size = new System.Drawing.Size(201, 20);
             this.apasswordTextBox.TabIndex = 8;
             // 
-            // button1
+            // welcomesubmit
             // 
-            this.button1.Font = new System.Drawing.Font("Josefin Sans", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(299, 323);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(197, 58);
-            this.button1.TabIndex = 9;
-            this.button1.Text = "Submit";
-            this.button1.UseVisualStyleBackColor = true;
+            this.welcomesubmit.Font = new System.Drawing.Font("Josefin Sans", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.welcomesubmit.Location = new System.Drawing.Point(299, 323);
+            this.welcomesubmit.Name = "welcomesubmit";
+            this.welcomesubmit.Size = new System.Drawing.Size(197, 58);
+            this.welcomesubmit.TabIndex = 9;
+            this.welcomesubmit.Text = "Submit";
+            this.welcomesubmit.UseVisualStyleBackColor = true;
+            this.welcomesubmit.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
@@ -309,7 +312,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.welcomesubmit);
             this.Controls.Add(apasswordLabel);
             this.Controls.Add(this.apasswordTextBox);
             this.Controls.Add(ausernameLabel);
@@ -355,7 +358,7 @@
         private System.Windows.Forms.TextBox cpasswordTextBox;
         private System.Windows.Forms.TextBox ausernameTextBox;
         private System.Windows.Forms.TextBox apasswordTextBox;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button welcomesubmit;
         private System.Windows.Forms.Label label1;
     }
 }
