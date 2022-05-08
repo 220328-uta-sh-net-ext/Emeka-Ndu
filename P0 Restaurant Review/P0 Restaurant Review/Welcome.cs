@@ -1,4 +1,3 @@
-using System.IO;
 
 namespace P0_Restaurant_Review
 {
@@ -9,11 +8,8 @@ namespace P0_Restaurant_Review
             InitializeComponent();
         }
 
-        private const string connectionStringFilePath = "C:/Users/nduag/OneDrive/Repos/Emeka-Ndu/P0 Restaurant Review/P0 Restaurant Review/Users.mdf";
-        private string connectionString;
-
-
-
+        private const string connecttoFile = "C:/Users/nduag/OneDrive/Repos/Emeka-Ndu/P0 Restaurant Review/P0 Restaurant Review/Users.mdf";
+        
         private void User_Click(object sender, EventArgs e)
         {
             var cusername = tbuusername.Text;   
