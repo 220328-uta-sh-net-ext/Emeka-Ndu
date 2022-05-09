@@ -23,7 +23,6 @@ namespace RestaurantUI
         public string UserChoice()
         {
             string userInput = Console.ReadLine();
-
             switch (userInput)
             {
                 case "0":
@@ -44,7 +43,10 @@ namespace RestaurantUI
                     Console.ReadLine();
                     return "MainMenu";
 
+                
+
             }
         }
     }
 }
+            

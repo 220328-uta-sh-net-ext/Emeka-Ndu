@@ -45,7 +45,7 @@ while (repeat)
             Console.WriteLine("Admin Login method is under implementation...");
             break;
         case "MainMenu":
-            menu=new MainMenu();
+            //menu=new MainMenu();
             break;
         case "Exit":
             repeat=false;
