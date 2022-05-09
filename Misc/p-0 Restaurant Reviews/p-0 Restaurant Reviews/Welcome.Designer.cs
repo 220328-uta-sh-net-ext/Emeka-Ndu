@@ -29,27 +29,27 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Welcome));
             System.Windows.Forms.Label cusernameLabel;
             System.Windows.Forms.Label cpasswordLabel;
             System.Windows.Forms.Label ausernameLabel;
             System.Windows.Forms.Label apasswordLabel;
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Welcome));
             this.masterDataSet = new p_0_Restaurant_Reviews.masterDataSet();
             this.usersBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.usersTableAdapter = new p_0_Restaurant_Reviews.masterDataSetTableAdapters.UsersTableAdapter();
             this.tableAdapterManager = new p_0_Restaurant_Reviews.masterDataSetTableAdapters.TableAdapterManager();
             this.usersBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
+            this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
+            this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMovePreviousItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator = new System.Windows.Forms.ToolStripSeparator();
             this.bindingNavigatorPositionItem = new System.Windows.Forms.ToolStripTextBox();
-            this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
             this.bindingNavigatorSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.bindingNavigatorMoveNextItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
             this.usersBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
             this.cusernameTextBox = new System.Windows.Forms.TextBox();
             this.cpasswordTextBox = new System.Windows.Forms.TextBox();
@@ -66,6 +66,46 @@
             ((System.ComponentModel.ISupportInitialize)(this.usersBindingNavigator)).BeginInit();
             this.usersBindingNavigator.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // cusernameLabel
+            // 
+            cusernameLabel.AutoSize = true;
+            cusernameLabel.Font = new System.Drawing.Font("Josefin Sans", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            cusernameLabel.Location = new System.Drawing.Point(52, 145);
+            cusernameLabel.Name = "cusernameLabel";
+            cusernameLabel.Size = new System.Drawing.Size(82, 19);
+            cusernameLabel.TabIndex = 1;
+            cusernameLabel.Text = "Your Name";
+            // 
+            // cpasswordLabel
+            // 
+            cpasswordLabel.AutoSize = true;
+            cpasswordLabel.Font = new System.Drawing.Font("Josefin Sans", 11.25F, System.Drawing.FontStyle.Bold);
+            cpasswordLabel.Location = new System.Drawing.Point(44, 235);
+            cpasswordLabel.Name = "cpasswordLabel";
+            cpasswordLabel.Size = new System.Drawing.Size(101, 19);
+            cpasswordLabel.TabIndex = 3;
+            cpasswordLabel.Text = "Your Password";
+            // 
+            // ausernameLabel
+            // 
+            ausernameLabel.AutoSize = true;
+            ausernameLabel.Font = new System.Drawing.Font("Josefin Sans", 11.25F, System.Drawing.FontStyle.Bold);
+            ausernameLabel.Location = new System.Drawing.Point(413, 141);
+            ausernameLabel.Name = "ausernameLabel";
+            ausernameLabel.Size = new System.Drawing.Size(119, 19);
+            ausernameLabel.TabIndex = 5;
+            ausernameLabel.Text = "Admin Username:";
+            // 
+            // apasswordLabel
+            // 
+            apasswordLabel.AutoSize = true;
+            apasswordLabel.Font = new System.Drawing.Font("Josefin Sans", 11.25F, System.Drawing.FontStyle.Bold);
+            apasswordLabel.Location = new System.Drawing.Point(419, 236);
+            apasswordLabel.Name = "apasswordLabel";
+            apasswordLabel.Size = new System.Drawing.Size(113, 19);
+            apasswordLabel.TabIndex = 7;
+            apasswordLabel.Text = "Admin password:";
             // 
             // masterDataSet
             // 
@@ -117,6 +157,31 @@
             this.usersBindingNavigator.TabIndex = 0;
             this.usersBindingNavigator.Text = "bindingNavigator1";
             // 
+            // bindingNavigatorAddNewItem
+            // 
+            this.bindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
+            this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
+            this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorAddNewItem.Text = "Add new";
+            // 
+            // bindingNavigatorCountItem
+            // 
+            this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
+            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(35, 22);
+            this.bindingNavigatorCountItem.Text = "of {0}";
+            this.bindingNavigatorCountItem.ToolTipText = "Total number of items";
+            // 
+            // bindingNavigatorDeleteItem
+            // 
+            this.bindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
+            this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
+            this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorDeleteItem.Text = "Delete";
+            // 
             // bindingNavigatorMoveFirstItem
             // 
             this.bindingNavigatorMoveFirstItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -150,16 +215,9 @@
             this.bindingNavigatorPositionItem.Text = "0";
             this.bindingNavigatorPositionItem.ToolTipText = "Current position";
             // 
-            // bindingNavigatorCountItem
-            // 
-            this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
-            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(35, 22);
-            this.bindingNavigatorCountItem.Text = "of {0}";
-            this.bindingNavigatorCountItem.ToolTipText = "Total number of items";
-            // 
             // bindingNavigatorSeparator1
             // 
-            this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator";
+            this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator1";
             this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 25);
             // 
             // bindingNavigatorMoveNextItem
@@ -182,26 +240,8 @@
             // 
             // bindingNavigatorSeparator2
             // 
-            this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator";
+            this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator2";
             this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 25);
-            // 
-            // bindingNavigatorAddNewItem
-            // 
-            this.bindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
-            this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
-            this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigatorAddNewItem.Text = "Add new";
-            // 
-            // bindingNavigatorDeleteItem
-            // 
-            this.bindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
-            this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
-            this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigatorDeleteItem.Text = "Delete";
             // 
             // usersBindingNavigatorSaveItem
             // 
@@ -213,16 +253,6 @@
             this.usersBindingNavigatorSaveItem.Text = "Save Data";
             this.usersBindingNavigatorSaveItem.Click += new System.EventHandler(this.usersBindingNavigatorSaveItem_Click);
             // 
-            // cusernameLabel
-            // 
-            cusernameLabel.AutoSize = true;
-            cusernameLabel.Font = new System.Drawing.Font("Josefin Sans", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            cusernameLabel.Location = new System.Drawing.Point(52, 145);
-            cusernameLabel.Name = "cusernameLabel";
-            cusernameLabel.Size = new System.Drawing.Size(82, 19);
-            cusernameLabel.TabIndex = 1;
-            cusernameLabel.Text = "Your Name";
-            // 
             // cusernameTextBox
             // 
             this.cusernameTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.usersBindingSource, "cusername", true));
@@ -230,16 +260,6 @@
             this.cusernameTextBox.Name = "cusernameTextBox";
             this.cusernameTextBox.Size = new System.Drawing.Size(194, 20);
             this.cusernameTextBox.TabIndex = 2;
-            // 
-            // cpasswordLabel
-            // 
-            cpasswordLabel.AutoSize = true;
-            cpasswordLabel.Font = new System.Drawing.Font("Josefin Sans", 11.25F, System.Drawing.FontStyle.Bold);
-            cpasswordLabel.Location = new System.Drawing.Point(44, 235);
-            cpasswordLabel.Name = "cpasswordLabel";
-            cpasswordLabel.Size = new System.Drawing.Size(101, 19);
-            cpasswordLabel.TabIndex = 3;
-            cpasswordLabel.Text = "Your Password";
             // 
             // cpasswordTextBox
             // 
@@ -249,16 +269,6 @@
             this.cpasswordTextBox.Size = new System.Drawing.Size(171, 20);
             this.cpasswordTextBox.TabIndex = 4;
             // 
-            // ausernameLabel
-            // 
-            ausernameLabel.AutoSize = true;
-            ausernameLabel.Font = new System.Drawing.Font("Josefin Sans", 11.25F, System.Drawing.FontStyle.Bold);
-            ausernameLabel.Location = new System.Drawing.Point(413, 141);
-            ausernameLabel.Name = "ausernameLabel";
-            ausernameLabel.Size = new System.Drawing.Size(119, 19);
-            ausernameLabel.TabIndex = 5;
-            ausernameLabel.Text = "Admin Username:";
-            // 
             // ausernameTextBox
             // 
             this.ausernameTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.usersBindingSource, "ausername", true));
@@ -266,16 +276,6 @@
             this.ausernameTextBox.Name = "ausernameTextBox";
             this.ausernameTextBox.Size = new System.Drawing.Size(201, 20);
             this.ausernameTextBox.TabIndex = 6;
-            // 
-            // apasswordLabel
-            // 
-            apasswordLabel.AutoSize = true;
-            apasswordLabel.Font = new System.Drawing.Font("Josefin Sans", 11.25F, System.Drawing.FontStyle.Bold);
-            apasswordLabel.Location = new System.Drawing.Point(419, 236);
-            apasswordLabel.Name = "apasswordLabel";
-            apasswordLabel.Size = new System.Drawing.Size(113, 19);
-            apasswordLabel.TabIndex = 7;
-            apasswordLabel.Text = "Admin password:";
             // 
             // apasswordTextBox
             // 
@@ -300,11 +300,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Josefin Sans", 14.25F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(248, 56);
+            this.label1.Location = new System.Drawing.Point(270, 53);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(284, 24);
+            this.label1.Size = new System.Drawing.Size(246, 24);
             this.label1.TabIndex = 10;
-            this.label1.Text = "Welcome! Register or Login to start";
+            this.label1.Text = "Welcome! Review Restaurants";
             // 
             // Welcome
             // 

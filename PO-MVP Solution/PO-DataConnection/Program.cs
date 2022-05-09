@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace p_0_Restaurant_Reviews
+namespace PO_DataConnection
 {
     internal static class Program
     {
@@ -16,7 +16,7 @@ namespace p_0_Restaurant_Reviews
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            
+            Application.Run(new Intro());
         }
     }
 }

@@ -1,0 +1,11 @@
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\PO-DataConnection\PO-DataConnection\bin\Debug\PO-DataConnection.exe.config
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\PO-DataConnection\PO-DataConnection\bin\Debug\PO-DataConnection.exe
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\PO-DataConnection\PO-DataConnection\bin\Debug\PO-DataConnection.pdb
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\PO-DataConnection\PO-DataConnection\obj\Debug\PO-DataConnection.csproj.AssemblyReference.cache
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\PO-DataConnection\PO-DataConnection\obj\Debug\PO-DataConnection.csproj.SuggestedBindingRedirects.cache
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\PO-DataConnection\PO-DataConnection\obj\Debug\PO_DataConnection.Intro.resources
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\PO-DataConnection\PO-DataConnection\obj\Debug\PO_DataConnection.Properties.Resources.resources
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\PO-DataConnection\PO-DataConnection\obj\Debug\PO-DataConnection.csproj.GenerateResource.cache
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\PO-DataConnection\PO-DataConnection\obj\Debug\PO-DataConnection.csproj.CoreCompileInputs.cache
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\PO-DataConnection\PO-DataConnection\obj\Debug\PO-DataConnection.exe
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\PO-DataConnection\PO-DataConnection\obj\Debug\PO-DataConnection.pdb
