@@ -32,7 +32,7 @@ namespace PO_DataConnection
             // TODO: This line of code loads data into the 'masterDataSet.Userinfo' table. You can move, or remove it, as needed.
             this.userinfoTableAdapter.Fill(this.masterDataSet.Userinfo);
 
-            var userinfo = userInfo;
+            
         }
 
                 private void introsbmit_Click(object sender, EventArgs e)
@@ -44,8 +44,14 @@ namespace PO_DataConnection
             var ratings = raterestTextBox.Text;
             var reviews = reviewrestTextBox.Text;
 
+            
 
-            MessageBox.Show($"Thanks {restnameTextBox.Text} for providing your information");
+
+
+
+
+
+            // MessageBox.Show($"Thanks {restnameTextBox.Text} for providing your information");
         }
     }
 }
