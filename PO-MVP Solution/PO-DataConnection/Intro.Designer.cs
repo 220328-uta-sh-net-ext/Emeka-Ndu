@@ -29,29 +29,29 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Intro));
             System.Windows.Forms.Label restnameLabel;
             System.Windows.Forms.Label reststreetLabel;
             System.Windows.Forms.Label restcityLabel;
             System.Windows.Forms.Label restzipcodeLabel;
             System.Windows.Forms.Label raterestLabel;
             System.Windows.Forms.Label reviewrestLabel;
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Intro));
             this.masterDataSet = new PO_DataConnection.masterDataSet();
             this.userinfoBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.userinfoTableAdapter = new PO_DataConnection.masterDataSetTableAdapters.UserinfoTableAdapter();
             this.tableAdapterManager = new PO_DataConnection.masterDataSetTableAdapters.TableAdapterManager();
             this.userinfoBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
+            this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
+            this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMovePreviousItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator = new System.Windows.Forms.ToolStripSeparator();
             this.bindingNavigatorPositionItem = new System.Windows.Forms.ToolStripTextBox();
-            this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
             this.bindingNavigatorSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.bindingNavigatorMoveNextItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
             this.userinfoBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
             this.restnameTextBox = new System.Windows.Forms.TextBox();
             this.reststreetTextBox = new System.Windows.Forms.TextBox();
@@ -72,6 +72,66 @@
             ((System.ComponentModel.ISupportInitialize)(this.userinfoBindingNavigator)).BeginInit();
             this.userinfoBindingNavigator.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // restnameLabel
+            // 
+            restnameLabel.AutoSize = true;
+            restnameLabel.Font = new System.Drawing.Font("Josefin Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            restnameLabel.Location = new System.Drawing.Point(84, 151);
+            restnameLabel.Name = "restnameLabel";
+            restnameLabel.Size = new System.Drawing.Size(129, 20);
+            restnameLabel.TabIndex = 5;
+            restnameLabel.Text = "Restaurant Name";
+            // 
+            // reststreetLabel
+            // 
+            reststreetLabel.AutoSize = true;
+            reststreetLabel.Font = new System.Drawing.Font("Josefin Sans", 12F, System.Drawing.FontStyle.Bold);
+            reststreetLabel.Location = new System.Drawing.Point(84, 195);
+            reststreetLabel.Name = "reststreetLabel";
+            reststreetLabel.Size = new System.Drawing.Size(130, 20);
+            reststreetLabel.TabIndex = 7;
+            reststreetLabel.Text = "Restaurant Street:";
+            // 
+            // restcityLabel
+            // 
+            restcityLabel.AutoSize = true;
+            restcityLabel.Font = new System.Drawing.Font("Josefin Sans", 12F, System.Drawing.FontStyle.Bold);
+            restcityLabel.Location = new System.Drawing.Point(84, 258);
+            restcityLabel.Name = "restcityLabel";
+            restcityLabel.Size = new System.Drawing.Size(116, 20);
+            restcityLabel.TabIndex = 9;
+            restcityLabel.Text = "Restaurant City:";
+            // 
+            // restzipcodeLabel
+            // 
+            restzipcodeLabel.AutoSize = true;
+            restzipcodeLabel.Font = new System.Drawing.Font("Josefin Sans", 12F, System.Drawing.FontStyle.Bold);
+            restzipcodeLabel.Location = new System.Drawing.Point(84, 320);
+            restzipcodeLabel.Name = "restzipcodeLabel";
+            restzipcodeLabel.Size = new System.Drawing.Size(144, 20);
+            restzipcodeLabel.TabIndex = 11;
+            restzipcodeLabel.Text = "Restaurant Zipcode:";
+            // 
+            // raterestLabel
+            // 
+            raterestLabel.AutoSize = true;
+            raterestLabel.Font = new System.Drawing.Font("Josefin Sans", 12F, System.Drawing.FontStyle.Bold);
+            raterestLabel.Location = new System.Drawing.Point(84, 378);
+            raterestLabel.Name = "raterestLabel";
+            raterestLabel.Size = new System.Drawing.Size(122, 20);
+            raterestLabel.TabIndex = 13;
+            raterestLabel.Text = "Rate Restaurant:";
+            // 
+            // reviewrestLabel
+            // 
+            reviewrestLabel.AutoSize = true;
+            reviewrestLabel.Font = new System.Drawing.Font("Josefin Sans", 12F, System.Drawing.FontStyle.Bold);
+            reviewrestLabel.Location = new System.Drawing.Point(84, 423);
+            reviewrestLabel.Name = "reviewrestLabel";
+            reviewrestLabel.Size = new System.Drawing.Size(137, 20);
+            reviewrestLabel.TabIndex = 15;
+            reviewrestLabel.Text = "Review Restaurant:";
             // 
             // masterDataSet
             // 
@@ -123,6 +183,31 @@
             this.userinfoBindingNavigator.TabIndex = 0;
             this.userinfoBindingNavigator.Text = "bindingNavigator1";
             // 
+            // bindingNavigatorAddNewItem
+            // 
+            this.bindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
+            this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
+            this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorAddNewItem.Text = "Add new";
+            // 
+            // bindingNavigatorCountItem
+            // 
+            this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
+            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(35, 22);
+            this.bindingNavigatorCountItem.Text = "of {0}";
+            this.bindingNavigatorCountItem.ToolTipText = "Total number of items";
+            // 
+            // bindingNavigatorDeleteItem
+            // 
+            this.bindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
+            this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
+            this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorDeleteItem.Text = "Delete";
+            // 
             // bindingNavigatorMoveFirstItem
             // 
             this.bindingNavigatorMoveFirstItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -156,16 +241,9 @@
             this.bindingNavigatorPositionItem.Text = "0";
             this.bindingNavigatorPositionItem.ToolTipText = "Current position";
             // 
-            // bindingNavigatorCountItem
-            // 
-            this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
-            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(35, 22);
-            this.bindingNavigatorCountItem.Text = "of {0}";
-            this.bindingNavigatorCountItem.ToolTipText = "Total number of items";
-            // 
             // bindingNavigatorSeparator1
             // 
-            this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator";
+            this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator1";
             this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 25);
             // 
             // bindingNavigatorMoveNextItem
@@ -188,26 +266,8 @@
             // 
             // bindingNavigatorSeparator2
             // 
-            this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator";
+            this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator2";
             this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 25);
-            // 
-            // bindingNavigatorAddNewItem
-            // 
-            this.bindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
-            this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
-            this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigatorAddNewItem.Text = "Add new";
-            // 
-            // bindingNavigatorDeleteItem
-            // 
-            this.bindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
-            this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
-            this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigatorDeleteItem.Text = "Delete";
             // 
             // userinfoBindingNavigatorSaveItem
             // 
@@ -218,16 +278,6 @@
             this.userinfoBindingNavigatorSaveItem.Text = "Save Data";
             this.userinfoBindingNavigatorSaveItem.Click += new System.EventHandler(this.userinfoBindingNavigatorSaveItem_Click);
             // 
-            // restnameLabel
-            // 
-            restnameLabel.AutoSize = true;
-            restnameLabel.Font = new System.Drawing.Font("Josefin Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            restnameLabel.Location = new System.Drawing.Point(84, 151);
-            restnameLabel.Name = "restnameLabel";
-            restnameLabel.Size = new System.Drawing.Size(129, 20);
-            restnameLabel.TabIndex = 5;
-            restnameLabel.Text = "Restaurant Name";
-            // 
             // restnameTextBox
             // 
             this.restnameTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.userinfoBindingSource, "restname", true));
@@ -235,16 +285,6 @@
             this.restnameTextBox.Name = "restnameTextBox";
             this.restnameTextBox.Size = new System.Drawing.Size(412, 20);
             this.restnameTextBox.TabIndex = 6;
-            // 
-            // reststreetLabel
-            // 
-            reststreetLabel.AutoSize = true;
-            reststreetLabel.Font = new System.Drawing.Font("Josefin Sans", 12F, System.Drawing.FontStyle.Bold);
-            reststreetLabel.Location = new System.Drawing.Point(84, 195);
-            reststreetLabel.Name = "reststreetLabel";
-            reststreetLabel.Size = new System.Drawing.Size(130, 20);
-            reststreetLabel.TabIndex = 7;
-            reststreetLabel.Text = "Restaurant Street:";
             // 
             // reststreetTextBox
             // 
@@ -254,16 +294,6 @@
             this.reststreetTextBox.Size = new System.Drawing.Size(412, 20);
             this.reststreetTextBox.TabIndex = 8;
             // 
-            // restcityLabel
-            // 
-            restcityLabel.AutoSize = true;
-            restcityLabel.Font = new System.Drawing.Font("Josefin Sans", 12F, System.Drawing.FontStyle.Bold);
-            restcityLabel.Location = new System.Drawing.Point(84, 258);
-            restcityLabel.Name = "restcityLabel";
-            restcityLabel.Size = new System.Drawing.Size(116, 20);
-            restcityLabel.TabIndex = 9;
-            restcityLabel.Text = "Restaurant City:";
-            // 
             // restcityTextBox
             // 
             this.restcityTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.userinfoBindingSource, "restcity", true));
@@ -271,16 +301,6 @@
             this.restcityTextBox.Name = "restcityTextBox";
             this.restcityTextBox.Size = new System.Drawing.Size(412, 20);
             this.restcityTextBox.TabIndex = 10;
-            // 
-            // restzipcodeLabel
-            // 
-            restzipcodeLabel.AutoSize = true;
-            restzipcodeLabel.Font = new System.Drawing.Font("Josefin Sans", 12F, System.Drawing.FontStyle.Bold);
-            restzipcodeLabel.Location = new System.Drawing.Point(84, 320);
-            restzipcodeLabel.Name = "restzipcodeLabel";
-            restzipcodeLabel.Size = new System.Drawing.Size(144, 20);
-            restzipcodeLabel.TabIndex = 11;
-            restzipcodeLabel.Text = "Restaurant Zipcode:";
             // 
             // restzipcodeTextBox
             // 
@@ -290,16 +310,6 @@
             this.restzipcodeTextBox.Size = new System.Drawing.Size(412, 20);
             this.restzipcodeTextBox.TabIndex = 12;
             // 
-            // raterestLabel
-            // 
-            raterestLabel.AutoSize = true;
-            raterestLabel.Font = new System.Drawing.Font("Josefin Sans", 12F, System.Drawing.FontStyle.Bold);
-            raterestLabel.Location = new System.Drawing.Point(84, 378);
-            raterestLabel.Name = "raterestLabel";
-            raterestLabel.Size = new System.Drawing.Size(122, 20);
-            raterestLabel.TabIndex = 13;
-            raterestLabel.Text = "Rate Restaurant:";
-            // 
             // raterestTextBox
             // 
             this.raterestTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.userinfoBindingSource, "raterest", true));
@@ -307,16 +317,6 @@
             this.raterestTextBox.Name = "raterestTextBox";
             this.raterestTextBox.Size = new System.Drawing.Size(412, 20);
             this.raterestTextBox.TabIndex = 14;
-            // 
-            // reviewrestLabel
-            // 
-            reviewrestLabel.AutoSize = true;
-            reviewrestLabel.Font = new System.Drawing.Font("Josefin Sans", 12F, System.Drawing.FontStyle.Bold);
-            reviewrestLabel.Location = new System.Drawing.Point(84, 423);
-            reviewrestLabel.Name = "reviewrestLabel";
-            reviewrestLabel.Size = new System.Drawing.Size(137, 20);
-            reviewrestLabel.TabIndex = 15;
-            reviewrestLabel.Text = "Review Restaurant:";
             // 
             // reviewrestTextBox
             // 
@@ -329,7 +329,7 @@
             // introsbmit
             // 
             this.introsbmit.Font = new System.Drawing.Font("Josefin Sans", 15.75F, System.Drawing.FontStyle.Bold);
-            this.introsbmit.Location = new System.Drawing.Point(301, 488);
+            this.introsbmit.Location = new System.Drawing.Point(301, 481);
             this.introsbmit.Name = "introsbmit";
             this.introsbmit.Size = new System.Drawing.Size(262, 48);
             this.introsbmit.TabIndex = 17;
