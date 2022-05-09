@@ -16,13 +16,13 @@ string connectionString = File.ReadAllText(connectionStringFilePath);
 //string connectionStrringFilePath = "C:/Users/nduag/OneDrive/Repos/Emeka-Ndu/Project0-Restaurant/RestaurantDL/connection-string.txt";
 //string connectionStrring = File.ReadAllText(connectionStrringFilePath);
 
-Log.Logger = new LoggerConfiguration()
+/*Log.Logger = new LoggerConfiguration()
     .MinimumLevel.Debug()
     .WriteTo.File("C:/Users/nduag/OneDrive/Repos/Emeka-Ndu/Project0-Restaurant/RestaurantUI/Log.txt")
-    .CreateLogger();
+    .CreateLogger();*/
 
 
-/*
+
 while (repeat)
 {
     menu.Display();
@@ -44,7 +44,7 @@ while (repeat)
             break;
         case "Search Restaurants":
             // call restaurant model
-            menu = new SearchRestaurantMenu();
+            //menu = new SearchRestaurantMenu();
             break;
             Console.WriteLine("Search restaurants database under implementation...");
        case "Admin Login":
@@ -64,7 +64,6 @@ while (repeat)
             break;
     }
 }
-*/
 
 Console.WriteLine("Please enter your username");
 string userinput = Console.ReadLine();
