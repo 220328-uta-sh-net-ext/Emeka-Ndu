@@ -382,8 +382,6 @@
         }
 
         #endregion
-
-        private masterDataSet masterDataSet;
         private System.Windows.Forms.BindingSource userinfoBindingSource;
         private masterDataSetTableAdapters.UserinfoTableAdapter userinfoTableAdapter;
         private masterDataSetTableAdapters.TableAdapterManager tableAdapterManager;
@@ -408,6 +406,7 @@
         private System.Windows.Forms.Button introsbmit;
         private System.Windows.Forms.Label welcomeintro;
         private System.Windows.Forms.TextBox restnameTextBox;
+        public masterDataSet masterDataSet;
     }
 }
 
