@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="masterModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'master.dbo.Userinfo' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="Userinfo">
+          <Key>
+            <PropertyRef Name="AccountCreated" />
+          </Key>
+          <Property Name="cname" Type="nvarchar" MaxLength="100" />
+          <Property Name="cpassword" Type="nvarchar" MaxLength="100" />
+          <Property Name="aname" Type="nvarchar" MaxLength="100" />
+          <Property Name="apassword" Type="nvarchar" MaxLength="100" />
+          <Property Name="restname" Type="nvarchar" MaxLength="100" />
+          <Property Name="reststreet" Type="nvarchar" MaxLength="100" />
+          <Property Name="restcity" Type="nvarchar" MaxLength="100" />
+          <Property Name="restzipcode" Type="int" />
+          <Property Name="raterest" Type="int" />
+          <Property Name="reviewrest" Type="nvarchar" MaxLength="3000" />
+          <Property Name="AccountCreated" Type="datetime2" Precision="7" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="masterModelStoreContainer">
+          <EntitySet Name="Userinfo" EntityType="Self.Userinfo" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [Userinfo].[cname] AS [cname], 
+    [Userinfo].[cpassword] AS [cpassword], 
+    [Userinfo].[aname] AS [aname], 
+    [Userinfo].[apassword] AS [apassword], 
+    [Userinfo].[restname] AS [restname], 
+    [Userinfo].[reststreet] AS [reststreet], 
+    [Userinfo].[restcity] AS [restcity], 
+    [Userinfo].[restzipcode] AS [restzipcode], 
+    [Userinfo].[raterest] AS [raterest], 
+    [Userinfo].[reviewrest] AS [reviewrest], 
+    [Userinfo].[AccountCreated] AS [AccountCreated]
+    FROM [dbo].[Userinfo] AS [Userinfo]</DefiningQuery>
+          </EntitySet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="masterModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Userinfo">
+          <Key>
+            <PropertyRef Name="AccountCreated" />
+          </Key>
+          <Property Name="cname" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="cpassword" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="aname" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="apassword" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="restname" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="reststreet" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="restcity" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="restzipcode" Type="Int32" />
+          <Property Name="raterest" Type="Int32" />
+          <Property Name="reviewrest" Type="String" MaxLength="3000" FixedLength="false" Unicode="true" />
+          <Property Name="AccountCreated" Type="DateTime" Nullable="false" Precision="7" />
+        </EntityType>
+        <EntityContainer Name="masterEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Userinfoes" EntityType="Self.Userinfo" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="masterModelStoreContainer" CdmEntityContainer="masterEntities">
+          <EntitySetMapping Name="Userinfoes">
+            <EntityTypeMapping TypeName="masterModel.Userinfo">
+              <MappingFragment StoreEntitySet="Userinfo">
+                <ScalarProperty Name="cname" ColumnName="cname" />
+                <ScalarProperty Name="cpassword" ColumnName="cpassword" />
+                <ScalarProperty Name="aname" ColumnName="aname" />
+                <ScalarProperty Name="apassword" ColumnName="apassword" />
+                <ScalarProperty Name="restname" ColumnName="restname" />
+                <ScalarProperty Name="reststreet" ColumnName="reststreet" />
+                <ScalarProperty Name="restcity" ColumnName="restcity" />
+                <ScalarProperty Name="restzipcode" ColumnName="restzipcode" />
+                <ScalarProperty Name="raterest" ColumnName="raterest" />
+                <ScalarProperty Name="reviewrest" ColumnName="reviewrest" />
+                <ScalarProperty Name="AccountCreated" ColumnName="AccountCreated" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
