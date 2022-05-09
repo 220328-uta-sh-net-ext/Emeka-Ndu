@@ -7,14 +7,7 @@ using Serilog;
 bool repeat = true;
 IMenu menu = new MainMenu();
 
-string connectionStringFilePath = "../../../../RestaurantDL/connection-string.txt";
-string connectionString = File.ReadAllText(connectionStringFilePath);
 
-//string connectionStringFilePath = "../../../../Confidential-string.txt";
-//string connectionString = File.ReadAllText(connectionStringFilePath);
-
-//string connectionStrringFilePath = "C:/Users/nduag/OneDrive/Repos/Emeka-Ndu/Project0-Restaurant/RestaurantDL/connection-string.txt";
-//string connectionStrring = File.ReadAllText(connectionStrringFilePath);
 
 /*Log.Logger = new LoggerConfiguration()
     .MinimumLevel.Debug()
@@ -45,9 +38,9 @@ while (repeat)
         case "Search Restaurants":
             // call restaurant model
             //menu = new SearchRestaurantMenu();
-            break;
             Console.WriteLine("Search restaurants database under implementation...");
-       case "Admin Login":
+            break;
+        case "Admin Login":
             // call admin model
             Console.WriteLine("Admin Login method is under implementation...");
             break;
@@ -64,7 +57,3 @@ while (repeat)
             break;
     }
 }
-
-Console.WriteLine("Please enter your username");
-string userinput = Console.ReadLine();
-string _ = "?";
