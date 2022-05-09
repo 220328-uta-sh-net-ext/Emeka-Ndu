@@ -60,7 +60,7 @@
             this.raterestTextBox = new System.Windows.Forms.TextBox();
             this.reviewrestTextBox = new System.Windows.Forms.TextBox();
             this.introsbmit = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.welcomeintro = new System.Windows.Forms.Label();
             restnameLabel = new System.Windows.Forms.Label();
             reststreetLabel = new System.Windows.Forms.Label();
             restcityLabel = new System.Windows.Forms.Label();
@@ -337,22 +337,22 @@
             this.introsbmit.UseVisualStyleBackColor = true;
             this.introsbmit.Click += new System.EventHandler(this.introsbmit_Click);
             // 
-            // label1
+            // welcomeintro
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Josefin Sans", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(218, 86);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(399, 26);
-            this.label1.TabIndex = 18;
-            this.label1.Text = "Welcome. Enter information below to review";
+            this.welcomeintro.AutoSize = true;
+            this.welcomeintro.Font = new System.Drawing.Font("Josefin Sans", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.welcomeintro.Location = new System.Drawing.Point(218, 86);
+            this.welcomeintro.Name = "welcomeintro";
+            this.welcomeintro.Size = new System.Drawing.Size(399, 26);
+            this.welcomeintro.TabIndex = 18;
+            this.welcomeintro.Text = "Welcome. Enter information below to review";
             // 
             // Intro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 557);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.welcomeintro);
             this.Controls.Add(this.introsbmit);
             this.Controls.Add(reviewrestLabel);
             this.Controls.Add(this.reviewrestTextBox);
@@ -406,7 +406,7 @@
         private System.Windows.Forms.TextBox raterestTextBox;
         private System.Windows.Forms.TextBox reviewrestTextBox;
         private System.Windows.Forms.Button introsbmit;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label welcomeintro;
     }
 }
 
