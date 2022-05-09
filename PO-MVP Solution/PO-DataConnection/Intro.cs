@@ -32,9 +32,9 @@ namespace PO_DataConnection
 
         }
 
-        private void introsbmit_Click(object sender, EventArgs e)
+                private void introsbmit_Click(object sender, EventArgs e)
         {
-
+                MessageBox.Show($"Thanks for providing your information");
         }
     }
 }
