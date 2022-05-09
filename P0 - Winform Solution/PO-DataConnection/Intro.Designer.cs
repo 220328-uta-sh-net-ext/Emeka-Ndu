@@ -272,6 +272,7 @@
             // userinfoBindingNavigatorSaveItem
             // 
             this.userinfoBindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.userinfoBindingNavigatorSaveItem.Enabled = false;
             this.userinfoBindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("userinfoBindingNavigatorSaveItem.Image")));
             this.userinfoBindingNavigatorSaveItem.Name = "userinfoBindingNavigatorSaveItem";
             this.userinfoBindingNavigatorSaveItem.Size = new System.Drawing.Size(23, 22);

@@ -12,14 +12,14 @@ namespace PO_DataConnection
 {
     public partial class Intro : Form
     {
-        private readonly masterEntities userInfo; 
+        public masterEntities userInfo; 
         public Intro()
         {
             InitializeComponent();
             userInfo= new masterEntities();
         }
 
-        private void userinfoBindingNavigatorSaveItem_Click(object sender, EventArgs e)
+        public void userinfoBindingNavigatorSaveItem_Click(object sender, EventArgs e)
         {
             this.Validate();
             this.userinfoBindingSource.EndEdit();
@@ -35,23 +35,21 @@ namespace PO_DataConnection
             
         }
 
-                private void introsbmit_Click(object sender, EventArgs e)
+             public void introsbmit_Click(object sender, EventArgs e)
         {
-            string customerName = restnameTextBox.Text;
-            string customerStreet = reststreetTextBox.Text;
-            var customerCity = restcityTextBox.Text;
-            var customerZip = restzipcodeTextBox.Text;
-            var ratings = raterestTextBox.Text;
-            var reviews = reviewrestTextBox.Text;
+             string customerName = restnameTextBox.Text;
+             string customerStreet = reststreetTextBox.Text;
+             var customerCity = restcityTextBox.Text;
+             var customerZip = restzipcodeTextBox.Text;
+             var ratings = raterestTextBox.Text;
+             var reviews = reviewrestTextBox.Text;
 
-            
-
-
+            userInfo.SaveChanges();
 
 
 
 
-            // MessageBox.Show($"Thanks {restnameTextBox.Text} for providing your information");
+           // MessageBox.Show($"Thanks {restnameTextBox.Text} for providing your information");
         }
     }
 }
