@@ -25,6 +25,6 @@ namespace PO_DataConnection
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<Userinfo> Userinfoes { get; set; }
+      //  public virtual DbSet<userInfo> Userinfoes { get; set; }
     }
 }

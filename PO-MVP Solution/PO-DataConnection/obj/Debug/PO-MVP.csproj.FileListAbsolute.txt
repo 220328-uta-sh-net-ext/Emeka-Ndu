@@ -9,3 +9,8 @@ C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\PO-MVP Solution\PO-DataConnection\obj\De
 C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\PO-MVP Solution\PO-DataConnection\obj\Debug\PO-MVP.csproj.CoreCompileInputs.cache
 C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\PO-MVP Solution\PO-DataConnection\obj\Debug\PO-DataConnection.exe
 C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\PO-MVP Solution\PO-DataConnection\obj\Debug\PO-DataConnection.pdb
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\PO-MVP Solution\PO-DataConnection\bin\Debug\EntityFramework.dll
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\PO-MVP Solution\PO-DataConnection\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\PO-MVP Solution\PO-DataConnection\bin\Debug\EntityFramework.xml
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\PO-MVP Solution\PO-DataConnection\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\nduag\OneDrive\Repos\Emeka-Ndu\PO-MVP Solution\PO-DataConnection\obj\Debug\PO-MVP.csproj.CopyComplete

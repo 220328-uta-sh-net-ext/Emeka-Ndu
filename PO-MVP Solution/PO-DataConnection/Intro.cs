@@ -12,9 +12,11 @@ namespace PO_DataConnection
 {
     public partial class Intro : Form
     {
+        private readonly masterEntities userInfo; 
         public Intro()
         {
             InitializeComponent();
+            userInfo= new masterEntities();
         }
 
         private void userinfoBindingNavigatorSaveItem_Click(object sender, EventArgs e)
@@ -30,6 +32,7 @@ namespace PO_DataConnection
             // TODO: This line of code loads data into the 'masterDataSet.Userinfo' table. You can move, or remove it, as needed.
             this.userinfoTableAdapter.Fill(this.masterDataSet.Userinfo);
 
+            var userinfo = userInfo;
         }
 
                 private void introsbmit_Click(object sender, EventArgs e)

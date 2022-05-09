@@ -369,7 +369,7 @@
             this.Controls.Add(this.userinfoBindingNavigator);
             this.Name = "Intro";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Intro_Load);
+            this.Load += new System.EventHandler(this.introsbmit_Click);
             ((System.ComponentModel.ISupportInitialize)(this.masterDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.userinfoBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.userinfoBindingNavigator)).EndInit();

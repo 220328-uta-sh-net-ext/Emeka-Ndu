@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="masterModelStoreContainer" CdmEntityContainer="masterEntities">
+    <EntitySetMapping Name="Userinfoes">
+      <EntityTypeMapping TypeName="masterModel.Userinfo">
+        <MappingFragment StoreEntitySet="Userinfo">
+          <ScalarProperty Name="cname" ColumnName="cname" />
+          <ScalarProperty Name="cpassword" ColumnName="cpassword" />
+          <ScalarProperty Name="aname" ColumnName="aname" />
+          <ScalarProperty Name="apassword" ColumnName="apassword" />
+          <ScalarProperty Name="restname" ColumnName="restname" />
+          <ScalarProperty Name="reststreet" ColumnName="reststreet" />
+          <ScalarProperty Name="restcity" ColumnName="restcity" />
+          <ScalarProperty Name="restzipcode" ColumnName="restzipcode" />
+          <ScalarProperty Name="raterest" ColumnName="raterest" />
+          <ScalarProperty Name="reviewrest" ColumnName="reviewrest" />
+          <ScalarProperty Name="AccountCreated" ColumnName="AccountCreated" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
