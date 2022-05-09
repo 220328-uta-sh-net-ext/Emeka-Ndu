@@ -34,7 +34,15 @@ namespace PO_DataConnection
 
                 private void introsbmit_Click(object sender, EventArgs e)
         {
-                MessageBox.Show($"Thanks for providing your information");
+            string customerName = restnameTextBox.Text;
+            string customerStreet = reststreetTextBox.Text;
+            var customerCity = restcityTextBox.Text;
+            var customerZip = restzipcodeTextBox.Text;
+            var ratings = raterestTextBox.Text;
+            var reviews = reviewrestTextBox.Text;
+
+
+            MessageBox.Show($"Thanks {restnameTextBox.Text} for providing your information");
         }
     }
 }
