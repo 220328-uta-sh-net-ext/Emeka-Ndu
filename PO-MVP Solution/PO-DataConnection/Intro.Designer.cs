@@ -53,7 +53,6 @@
             this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.userinfoBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
-            this.restnameTextBox = new System.Windows.Forms.TextBox();
             this.reststreetTextBox = new System.Windows.Forms.TextBox();
             this.restcityTextBox = new System.Windows.Forms.TextBox();
             this.restzipcodeTextBox = new System.Windows.Forms.TextBox();
@@ -61,6 +60,7 @@
             this.reviewrestTextBox = new System.Windows.Forms.TextBox();
             this.introsbmit = new System.Windows.Forms.Button();
             this.welcomeintro = new System.Windows.Forms.Label();
+            this.restnameTextBox = new System.Windows.Forms.TextBox();
             restnameLabel = new System.Windows.Forms.Label();
             reststreetLabel = new System.Windows.Forms.Label();
             restcityLabel = new System.Windows.Forms.Label();
@@ -278,14 +278,6 @@
             this.userinfoBindingNavigatorSaveItem.Text = "Save Data";
             this.userinfoBindingNavigatorSaveItem.Click += new System.EventHandler(this.userinfoBindingNavigatorSaveItem_Click);
             // 
-            // restnameTextBox
-            // 
-            this.restnameTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.userinfoBindingSource, "restname", true));
-            this.restnameTextBox.Location = new System.Drawing.Point(240, 151);
-            this.restnameTextBox.Name = "restnameTextBox";
-            this.restnameTextBox.Size = new System.Drawing.Size(412, 20);
-            this.restnameTextBox.TabIndex = 6;
-            // 
             // reststreetTextBox
             // 
             this.reststreetTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.userinfoBindingSource, "reststreet", true));
@@ -347,6 +339,14 @@
             this.welcomeintro.TabIndex = 18;
             this.welcomeintro.Text = "Welcome. Enter information below to review";
             // 
+            // restnameTextBox
+            // 
+            this.restnameTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.userinfoBindingSource, "restname", true));
+            this.restnameTextBox.Location = new System.Drawing.Point(240, 151);
+            this.restnameTextBox.Name = "restnameTextBox";
+            this.restnameTextBox.Size = new System.Drawing.Size(412, 20);
+            this.restnameTextBox.TabIndex = 6;
+            // 
             // Intro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -399,7 +399,6 @@
         private System.Windows.Forms.ToolStripButton bindingNavigatorMoveLastItem;
         private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator2;
         private System.Windows.Forms.ToolStripButton userinfoBindingNavigatorSaveItem;
-        private System.Windows.Forms.TextBox restnameTextBox;
         private System.Windows.Forms.TextBox reststreetTextBox;
         private System.Windows.Forms.TextBox restcityTextBox;
         private System.Windows.Forms.TextBox restzipcodeTextBox;
@@ -407,6 +406,7 @@
         private System.Windows.Forms.TextBox reviewrestTextBox;
         private System.Windows.Forms.Button introsbmit;
         private System.Windows.Forms.Label welcomeintro;
+        private System.Windows.Forms.TextBox restnameTextBox;
     }
 }
 

@@ -5,6 +5,11 @@ VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PO-MVP", "PO-DataConnection\PO-MVP.csproj", "{C55729D5-A132-4449-A71F-0A119FBADBB7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RestaurantDL", "RestaurantDL", "{D7A6CEBF-3A1E-4260-9EB6-AD8470DB2446}"
+	ProjectSection(SolutionItems) = preProject
+		Datastructure.cs = Datastructure.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
