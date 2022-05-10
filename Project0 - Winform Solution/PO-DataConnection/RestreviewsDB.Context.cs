@@ -24,7 +24,13 @@ namespace PO_DataConnection
         {
             throw new UnintentionalCodeFirstException();
         }
-    
-      //  public virtual DbSet<userInfo> Userinfoes { get; set; }
+
+        internal static void Add(masterEntities userData)
+        {
+            throw new NotImplementedException();
+        }
+
+
+        //  public virtual DbSet<userInfo> Userinfoes { get; set; }
     }
 }

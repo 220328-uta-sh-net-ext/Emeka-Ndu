@@ -39,21 +39,23 @@ namespace PO_DataConnection
 
              public void introsbmit_Click(object sender, EventArgs e)
         {
-            string connectionString;
+           /* string connectionString;
             SqlConnection cnn;
             connectionString = @"Data Source=localhost\\SQLEXPRESS;Initial Catalog=master;Integrated Security=True");
             cnn = new SqlConnection(connectionString);
             cnn.Open();
-            cnn.Close();
+            cnn.Close(); */
 
-            string customerName = restnameTextBox.Text;
+            var userData = new masterEntities();
+
+             string customerName = restnameTextBox.Text;
              string customerStreet = reststreetTextBox.Text;
              var customerCity = restcityTextBox.Text;
              var customerZip = restzipcodeTextBox.Text;
              var ratings = raterestTextBox.Text;
              var reviews = reviewrestTextBox.Text;
 
-            userInfo.SaveChanges();
+            userData.SaveChanges();
 
 
 
