@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace PO_DataConnection
 {
@@ -31,13 +32,21 @@ namespace PO_DataConnection
         {
             // TODO: This line of code loads data into the 'masterDataSet.Userinfo' table. You can move, or remove it, as needed.
             this.userinfoTableAdapter.Fill(this.masterDataSet.Userinfo);
+            
 
             
         }
 
              public void introsbmit_Click(object sender, EventArgs e)
         {
-             string customerName = restnameTextBox.Text;
+            string connectionString;
+            SqlConnection cnn;
+            connectionString = @"Data Source=localhost\\SQLEXPRESS;Initial Catalog=master;Integrated Security=True");
+            cnn = new SqlConnection(connectionString);
+            cnn.Open();
+            cnn.Close();
+
+            string customerName = restnameTextBox.Text;
              string customerStreet = reststreetTextBox.Text;
              var customerCity = restcityTextBox.Text;
              var customerZip = restzipcodeTextBox.Text;

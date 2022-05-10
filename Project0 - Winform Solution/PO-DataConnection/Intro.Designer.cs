@@ -61,6 +61,7 @@
             this.introsbmit = new System.Windows.Forms.Button();
             this.welcomeintro = new System.Windows.Forms.Label();
             this.restnameTextBox = new System.Windows.Forms.TextBox();
+            this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             restnameLabel = new System.Windows.Forms.Label();
             reststreetLabel = new System.Windows.Forms.Label();
             restcityLabel = new System.Windows.Forms.Label();
@@ -348,6 +349,11 @@
             this.restnameTextBox.Size = new System.Drawing.Size(412, 20);
             this.restnameTextBox.TabIndex = 6;
             // 
+            // notifyIcon1
+            // 
+            this.notifyIcon1.Text = "notifyIcon1";
+            this.notifyIcon1.Visible = true;
+            // 
             // Intro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -407,6 +413,7 @@
         private System.Windows.Forms.Label welcomeintro;
         private System.Windows.Forms.TextBox restnameTextBox;
         public masterDataSet masterDataSet;
+        private System.Windows.Forms.NotifyIcon notifyIcon1;
     }
 }
 
