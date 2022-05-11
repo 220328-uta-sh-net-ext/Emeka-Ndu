@@ -10,12 +10,15 @@ Static Code Analysis is a method of debugging code without executing it. It is u
 
 
 ## Techniques
-There are various techniques to analyze static source code for potential vulnerabilities that maybe combined into one solution. These techniques are often derived from compiler technologies. They are as follows.
+There are various techniques to analyze static source code for potential vulnerabilities that may be combined into one solution. These techniques are often derived from compiler technologies. They are as follows...
 
 ### Data Flow Analysis
 Data flow analysis is used to collect run-time (dynamic) information about data in software while it is in a static state.
 
-There are three common terms used in data flow analysis. They are **basic block (the code), Control Flow Analysis (the flow of data) and Control Flow Path ** (the path the data takes)**
+There are three common terms used in data flow analysis. They are...
+  1. Basic block (the code)
+  2. Control Flow Analysis (the flow of data)
+  3. Control Flow Path - (the path the data takes)
 
 ## Taint Analysis
 These are attempts to identify variables that have been ‘tainted’ with user controllable input and traces them to possible vulnerable functions also known as a ‘sink’.
