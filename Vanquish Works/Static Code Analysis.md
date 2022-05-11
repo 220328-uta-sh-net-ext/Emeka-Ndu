@@ -36,7 +36,7 @@ Converts source code syntax into ‘tokens’ of information in an attempt to abstra
 
 **Weaknesses**
 
-  1. Many types of security vulnerabilities are very difficult to find automatically, such as authentication problems, access control issues, insecure use of cryptography, etc.
+  1. Many types of security vulnerabilities are very difficult to find automaticall, such as authentication problems, access control issues, insecure use of cryptography, etc.
 
   2. Other weaknesses include high numbers of false positives.
 
