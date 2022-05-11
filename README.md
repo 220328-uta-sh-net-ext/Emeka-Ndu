@@ -10,11 +10,11 @@ Some tools are starting to move into the Integrated Development Environment (IDE
 There are various techniques to analyze static source code for potential vulnerabilities that maybe combined into one solution. These techniques are often derived from compiler technologies.
 
 ### Data Flow Analysis
-Data flow analysis is used to collect run-time (dynamic) information about data in software while it is in a static state (Wögerer, 2005).
+Data flow analysis is used to collect run-time (dynamic) information about data in software while it is in a static state.
 
 There are three common terms used in data flow analysis, **basic block (the code), Control Flow Analysis (the flow of data) and Control Flow Path (the path the data takes)**
 
-**Basic block:** A sequence of consecutive instructions where control enters at the beginning of a block, control leaves at the end of a block and the block cannot halt or branch out except at its end (Wögerer, 2005).
+**Basic block:** Is a sequence of consecutive instructions where control enters at the beginning of a block, control leaves at the end of a block and the block cannot halt or branch out except at its end.
 
 **Control Flow Graph (CFG)**
 Is an abstract graph representation of software by use of nodes that represent basic blocks. A node in a graph represents a block; directed edges are used to represent jumps (paths) from one block to another. If a node only has an exit edge, this is known as an ‘entry’ block, if a node only has a entry edge, this is know as an ‘exit’ block.
@@ -23,11 +23,9 @@ Is an abstract graph representation of software by use of nodes that represent b
 
 Control Flow Graph![Control_flow_graph](https://user-images.githubusercontent.com/102530287/167885976-ca7c4c5a-8629-4ee7-8fb6-d512aa0e586b.png)
 
-**Taint Analysis:** Attempts to identify variables that have been ‘tainted’ with user controllable input and traces them to possible vulnerable functions also known as a ‘sink’. If the tainted variable gets passed to a sink without first being sanitized it is flagged as a vulnerability.
+**Taint Analysis:** Attempts to identify variables that have been ‘tainted’ with user controllable input and traces them to possible vulnerable functions also known as a ‘sink’. If the tainted variable gets passed to a sink without first being sanitized, it is flagged as a vulnerability.
 
-Some programming languages such as Perl and Ruby have Taint Checking built into them and enabled in certain situations such as accepting data via CGI.
-
-**Lexical Analysis:** converts source code syntax into ‘tokens’ of information in an attempt to abstract the source code and make it easier to manipulate (Sotirov, 2005).
+**Lexical Analysis:** converts source code syntax into ‘tokens’ of information in an attempt to abstract the source code and make it easier to manipulate.
 
 ## Strengths and Weaknesses
 
@@ -42,7 +40,7 @@ For things that such tools can automatically find with high confidence, such as 
 
 Many types of security vulnerabilities are very difficult to find automatically, such as authentication problems, access control issues, insecure use of cryptography, etc. The current state of the art only allows such tools to automatically find a relatively small percentage of application security flaws. Tools of this type are getting better.
 
-High numbers of false positives.
+Other weaknesses include high numbers of false positives.
 
 Frequently can’t find configuration issues, since they are not represented in the code.
 
@@ -89,3 +87,4 @@ OWASP LAPSE+ Static Code Analysis Tool
 ![LapsePlusScreenshot](https://user-images.githubusercontent.com/102530287/167891855-ee93186a-c83d-486e-a274-8efac9448d44.png)
 
 
+Source: https://owasp.org/www-community/controls/Static_Code_Analysis
