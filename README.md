@@ -22,17 +22,17 @@ Other concepts include....
 
   1. Scales well (Can be run on lots of software, and can be repeatedly (like in nightly builds))
 
-  2.For things that such tools can automatically find with high confidence, such as buffer overflows, SQL Injection Flaws, etc, they are great.
+  2. For things that such tools can automatically find with high confidence, such as buffer overflows, SQL Injection Flaws, etc, they are great.
 
 **Weaknesses**
 
-Many types of security vulnerabilities are very difficult to find automatically, such as authentication problems, access control issues, insecure use of cryptography, etc.
+  1. Many types of security vulnerabilities are very difficult to find automatically, such as authentication problems, access control issues, insecure use of cryptography, etc.
 
-Other weaknesses include high numbers of false positives.
+  2. Other weaknesses include high numbers of false positives.
 
-Frequently can’t find configuration issues, since they are not represented in the code.
+  3. Frequently can’t find configuration issues, since they are not represented in the code.
 
-Difficult to ‘prove’ that an identified security issue is an actual vulnerability.
+  4. Difficult to ‘prove’ that an identified security issue is an actual vulnerability.
 
 
 Source: https://owasp.org/www-community/controls/Static_Code_Analysis
