@@ -20,9 +20,9 @@ Other concepts include....
 
 **Strengths:** 
 
-Scales well (Can be run on lots of software, and can be repeatedly (like in nightly builds))
+  1. Scales well (Can be run on lots of software, and can be repeatedly (like in nightly builds))
 
-For things that such tools can automatically find with high confidence, such as buffer overflows, SQL Injection Flaws, etc, they are great.
+  2.For things that such tools can automatically find with high confidence, such as buffer overflows, SQL Injection Flaws, etc, they are great.
 
 **Weaknesses**
 
