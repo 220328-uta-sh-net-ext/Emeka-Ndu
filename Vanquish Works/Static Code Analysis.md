@@ -30,9 +30,9 @@ Converts source code syntax into ‘tokens’ of information in an attempt to abstra
 
 **Strengths:** 
 
-  1. Scales well (Can be run on lots of software, and can be repeatedly (like in nightly builds))
+  1. Scales well (Can be run on lots of software, and can be used repeatedly.
 
-  2. For things that such tools can automatically find with high confidence, such as buffer overflows, SQL Injection Flaws, etc, they are great.
+  2. Useful for things that such tools can automatically find with high confidence, such as buffer overflows, SQL Injection Flaws, etc.
 
 **Weaknesses**
 
@@ -43,9 +43,3 @@ Converts source code syntax into ‘tokens’ of information in an attempt to abstra
   3. Frequently can’t find configuration issues, since they are not represented in the code.
 
   4. Difficult to prove that an identified security issue is an actual vulnerability.
-
-
-
-Sources:	
-  1. https://owasp.org/www-community/controls/Static_Code_Analysis
-  2. https://www.youtube.com/watch?v=3BNKfraEJK8
