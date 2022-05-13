@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantUI", "RestaurantUI\RestaurantUI.csproj", "{FA483C80-8D85-4EB3-8317-15E040CE2002}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestaurantUI", "RestaurantUI\RestaurantUI.csproj", "{FA483C80-8D85-4EB3-8317-15E040CE2002}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantModels", "RestaurantModels\RestaurantModels.csproj", "{810F7F47-D0BB-4242-9601-6D9B491AFD35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestaurantModels", "RestaurantModels\RestaurantModels.csproj", "{810F7F47-D0BB-4242-9601-6D9B491AFD35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantBL", "RestaurantBL\RestaurantBL.csproj", "{F49968AD-3576-4FA5-9B04-0F960CF5FE38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestaurantBL", "RestaurantBL\RestaurantBL.csproj", "{F49968AD-3576-4FA5-9B04-0F960CF5FE38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantDL", "RestaurantDL\RestaurantDL.csproj", "{9CC3AFD2-5557-403B-8EA9-661EDE15200E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestaurantDL", "RestaurantDL\RestaurantDL.csproj", "{9CC3AFD2-5557-403B-8EA9-661EDE15200E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantTest", "RestaurantTest\RestaurantTest.csproj", "{FF49A6DE-5DA4-407C-A7C1-19625EE90E30}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestaurantTest", "RestaurantTest\RestaurantTest.csproj", "{FF49A6DE-5DA4-407C-A7C1-19625EE90E30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantAPI", "RestaurantAPI\RestaurantAPI.csproj", "{C709C804-1A29-40F5-BD16-FBFB604641F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{FF49A6DE-5DA4-407C-A7C1-19625EE90E30}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF49A6DE-5DA4-407C-A7C1-19625EE90E30}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF49A6DE-5DA4-407C-A7C1-19625EE90E30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C709C804-1A29-40F5-BD16-FBFB604641F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C709C804-1A29-40F5-BD16-FBFB604641F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C709C804-1A29-40F5-BD16-FBFB604641F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C709C804-1A29-40F5-BD16-FBFB604641F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
