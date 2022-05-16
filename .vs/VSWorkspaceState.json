@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Project1-Restaurant Reviews"
+    "\\Project1-Restaurant Reviews",
+    "\\Project1-Restaurant Reviews\\Project1-Restaurant",
+    "\\Project1-Restaurant Reviews\\Project1-Restaurant\\RestaurantUI"
   ],
+  "SelectedNode": "\\Project1-Restaurant Reviews\\Project1-Restaurant\\RestaurantUI\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
