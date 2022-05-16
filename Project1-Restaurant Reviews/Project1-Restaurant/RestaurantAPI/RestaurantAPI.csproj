@@ -5,7 +5,9 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>364b7707-7eb6-4d9a-b971-a3efd36e8f93</UserSecretsId>
-    <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+	<DockerfileContext>.</DockerfileContext>
+	<DockerfileFile>..\RestaurantAPI\ConsoleApp\Dockerfile</DockerfileFile>
   </PropertyGroup>
 
   <ItemGroup>
